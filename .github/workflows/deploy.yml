@@ -62,7 +62,7 @@ jobs:
           port: 22
           script: |
             echo "Navigating to the Docker Compose file directory"
-            cd team/5000
+            cd team/5000/CICD_NODEJS
               echo "Stopping and removing any running containers"
               # docker stop <container name>
               # docker rm <container name>
