@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
   })
 })
 
-const PORT = 3000
+const PORT = 5000
 
 app.listen(PORT, () => console.log(`App running on PORT ${PORT}`))
