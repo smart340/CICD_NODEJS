@@ -63,6 +63,7 @@ jobs:
           script: |
             echo "Navigating to the Docker Compose file directory"
             cd team/5000/CICD_NODEJS
+              git pull origin master
               echo "Stopping and removing any running containers"
               # docker stop <container name>
               # docker rm <container name>
