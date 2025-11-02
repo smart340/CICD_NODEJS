@@ -64,9 +64,9 @@ jobs:
             echo "Navigating to the Docker Compose file directory"
             cd team/5000
               echo "Stopping and removing any running containers"
-              docker stop <container name>
-              docker rm <container name>
+              # docker stop <container name>
+              # docker rm <container name>
               echo "Removing the old Docker image"
-              docker rmi -f <latest image>|| true
+              # docker rmi -f <latest image>|| true
               echo "Pulling the latest image"
               docker compose up --build -d
