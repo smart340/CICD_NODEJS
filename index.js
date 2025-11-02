@@ -3,7 +3,13 @@ const app = express()
 
 app.get('/', (req, res) => {
   res.json({
-    msg: "Hello World!!! This is CICD with NodeJS Application"
+    msg: "This is CICD with NodeJS Application!"
+  })
+})
+
+app.get('/hellow', (req, res) => {
+  res.json({
+    msg: "Hellow!!"
   })
 })
 
