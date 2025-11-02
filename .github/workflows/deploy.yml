@@ -67,6 +67,5 @@ jobs:
               docker rm <container name>
               echo "Removing the old Docker image"
               docker rmi -f <latest image>|| true
-              echo "Logging into Docker Hub on the remote server"
               echo "Pulling the latest image"
               docker compose up --build -d
